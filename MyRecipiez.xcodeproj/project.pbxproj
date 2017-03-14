@@ -8,30 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		1BC02A791E7868E8006E4422 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC02A781E7868E8006E4422 /* AppDelegate.swift */; };
-		1BC02A7B1E7868E8006E4422 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC02A7A1E7868E8006E4422 /* ViewController.swift */; };
+		1BC02A7B1E7868E8006E4422 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC02A7A1E7868E8006E4422 /* MainVC.swift */; };
 		1BC02A7E1E7868E8006E4422 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BC02A7C1E7868E8006E4422 /* Main.storyboard */; };
 		1BC02A811E7868E8006E4422 /* MyRecipiez.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1BC02A7F1E7868E8006E4422 /* MyRecipiez.xcdatamodeld */; };
 		1BC02A831E7868E8006E4422 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BC02A821E7868E8006E4422 /* Assets.xcassets */; };
 		1BC02A861E7868E8006E4422 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BC02A841E7868E8006E4422 /* LaunchScreen.storyboard */; };
-		1BC02A941E787096006E4422 /* Image+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC02A901E787096006E4422 /* Image+CoreDataClass.swift */; };
-		1BC02A951E787096006E4422 /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC02A911E787096006E4422 /* Image+CoreDataProperties.swift */; };
-		1BC02A961E787096006E4422 /* Recipe+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC02A921E787096006E4422 /* Recipe+CoreDataClass.swift */; };
-		1BC02A971E787096006E4422 /* Recipe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC02A931E787096006E4422 /* Recipe+CoreDataProperties.swift */; };
+		1BC02A9A1E7874C1006E4422 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC02A991E7874C1006E4422 /* MaterialView.swift */; };
+		1BC02A9C1E7875E5006E4422 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC02A9B1E7875E5006E4422 /* ItemCell.swift */; };
+		1BC02AA11E788C12006E4422 /* Recipe+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC02A9D1E788C12006E4422 /* Recipe+CoreDataClass.swift */; };
+		1BC02AA21E788C12006E4422 /* Recipe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC02A9E1E788C12006E4422 /* Recipe+CoreDataProperties.swift */; };
+		1BC02AA31E788C12006E4422 /* Image+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC02A9F1E788C12006E4422 /* Image+CoreDataClass.swift */; };
+		1BC02AA41E788C12006E4422 /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC02AA01E788C12006E4422 /* Image+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1BC02A751E7868E8006E4422 /* MyRecipiez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRecipiez.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BC02A781E7868E8006E4422 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = MyRecipiez/AppDelegate.swift; sourceTree = "<group>"; };
-		1BC02A7A1E7868E8006E4422 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1BC02A7A1E7868E8006E4422 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		1BC02A7D1E7868E8006E4422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1BC02A801E7868E8006E4422 /* MyRecipiez.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyRecipiez.xcdatamodel; sourceTree = "<group>"; };
 		1BC02A821E7868E8006E4422 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BC02A851E7868E8006E4422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BC02A871E7868E8006E4422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1BC02A901E787096006E4422 /* Image+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataClass.swift"; sourceTree = "<group>"; };
-		1BC02A911E787096006E4422 /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		1BC02A921E787096006E4422 /* Recipe+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Recipe+CoreDataClass.swift"; sourceTree = "<group>"; };
-		1BC02A931E787096006E4422 /* Recipe+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Recipe+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1BC02A991E7874C1006E4422 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		1BC02A9B1E7875E5006E4422 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		1BC02A9D1E788C12006E4422 /* Recipe+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Recipe+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1BC02A9E1E788C12006E4422 /* Recipe+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Recipe+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1BC02A9F1E788C12006E4422 /* Image+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1BC02AA01E788C12006E4422 /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +69,6 @@
 		1BC02A771E7868E8006E4422 /* MyRecipiez */ = {
 			isa = PBXGroup;
 			children = (
-				1BC02A901E787096006E4422 /* Image+CoreDataClass.swift */,
-				1BC02A911E787096006E4422 /* Image+CoreDataProperties.swift */,
-				1BC02A921E787096006E4422 /* Recipe+CoreDataClass.swift */,
-				1BC02A931E787096006E4422 /* Recipe+CoreDataProperties.swift */,
 				1BC02A8D1E786AF8006E4422 /* Model */,
 				1BC02A8E1E786AFD006E4422 /* View */,
 				1BC02A8F1E786B03006E4422 /* Controller */,
@@ -84,6 +84,9 @@
 		1BC02A8D1E786AF8006E4422 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1BC02A991E7874C1006E4422 /* MaterialView.swift */,
+				1BC02A9B1E7875E5006E4422 /* ItemCell.swift */,
+				1BC02A981E7874A9006E4422 /* Generated */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -98,9 +101,20 @@
 		1BC02A8F1E786B03006E4422 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1BC02A7A1E7868E8006E4422 /* ViewController.swift */,
+				1BC02A7A1E7868E8006E4422 /* MainVC.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		1BC02A981E7874A9006E4422 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				1BC02A9D1E788C12006E4422 /* Recipe+CoreDataClass.swift */,
+				1BC02A9E1E788C12006E4422 /* Recipe+CoreDataProperties.swift */,
+				1BC02A9F1E788C12006E4422 /* Image+CoreDataClass.swift */,
+				1BC02AA01E788C12006E4422 /* Image+CoreDataProperties.swift */,
+			);
+			name = Generated;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,13 +190,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BC02A971E787096006E4422 /* Recipe+CoreDataProperties.swift in Sources */,
-				1BC02A7B1E7868E8006E4422 /* ViewController.swift in Sources */,
-				1BC02A951E787096006E4422 /* Image+CoreDataProperties.swift in Sources */,
+				1BC02AA41E788C12006E4422 /* Image+CoreDataProperties.swift in Sources */,
+				1BC02AA21E788C12006E4422 /* Recipe+CoreDataProperties.swift in Sources */,
+				1BC02A7B1E7868E8006E4422 /* MainVC.swift in Sources */,
+				1BC02A9C1E7875E5006E4422 /* ItemCell.swift in Sources */,
+				1BC02AA31E788C12006E4422 /* Image+CoreDataClass.swift in Sources */,
 				1BC02A791E7868E8006E4422 /* AppDelegate.swift in Sources */,
 				1BC02A811E7868E8006E4422 /* MyRecipiez.xcdatamodeld in Sources */,
-				1BC02A941E787096006E4422 /* Image+CoreDataClass.swift in Sources */,
-				1BC02A961E787096006E4422 /* Recipe+CoreDataClass.swift in Sources */,
+				1BC02A9A1E7874C1006E4422 /* MaterialView.swift in Sources */,
+				1BC02AA11E788C12006E4422 /* Recipe+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +362,7 @@
 				1BC02A8C1E7868E8006E4422 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

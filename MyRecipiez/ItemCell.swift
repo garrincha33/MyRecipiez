@@ -11,6 +11,8 @@ import UIKit
 class ItemCell: UITableViewCell {
     
     
+    //@IBOutlet weak var newCellImage: UIImageView!
+
     @IBOutlet weak var cellImg: UIImageView!
     
     @IBOutlet weak var cellTitle: UILabel!
@@ -22,6 +24,8 @@ class ItemCell: UITableViewCell {
         cellTitle.text = recipe.title
         cellDetails.text = recipe.details
         cellImg.image = recipe.toImage?.image as? UIImage
+        
+        //newCellImage.image = recipe.toImage?.image as? UIImage
         
     }
 }

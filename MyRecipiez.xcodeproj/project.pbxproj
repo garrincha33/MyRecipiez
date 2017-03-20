@@ -19,6 +19,8 @@
 		1BC02AA21E788C12006E4422 /* Recipe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC02A9E1E788C12006E4422 /* Recipe+CoreDataProperties.swift */; };
 		1BC02AA31E788C12006E4422 /* Image+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC02A9F1E788C12006E4422 /* Image+CoreDataClass.swift */; };
 		1BC02AA41E788C12006E4422 /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC02AA01E788C12006E4422 /* Image+CoreDataProperties.swift */; };
+		1BC02AA61E789DB3006E4422 /* tes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BC02AA51E789DB3006E4422 /* tes.jpg */; };
+		1BC02AAA1E791803006E4422 /* RecipeDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC02AA91E791803006E4422 /* RecipeDetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		1BC02A9E1E788C12006E4422 /* Recipe+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Recipe+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		1BC02A9F1E788C12006E4422 /* Image+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataClass.swift"; sourceTree = "<group>"; };
 		1BC02AA01E788C12006E4422 /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1BC02AA51E789DB3006E4422 /* tes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tes.jpg; sourceTree = "<group>"; };
+		1BC02AA91E791803006E4422 /* RecipeDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeDetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				1BC02A7A1E7868E8006E4422 /* MainVC.swift */,
+				1BC02AA51E789DB3006E4422 /* tes.jpg */,
+				1BC02AA91E791803006E4422 /* RecipeDetailsVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -179,6 +185,7 @@
 			files = (
 				1BC02A861E7868E8006E4422 /* LaunchScreen.storyboard in Resources */,
 				1BC02A831E7868E8006E4422 /* Assets.xcassets in Resources */,
+				1BC02AA61E789DB3006E4422 /* tes.jpg in Resources */,
 				1BC02A7E1E7868E8006E4422 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +200,7 @@
 				1BC02AA41E788C12006E4422 /* Image+CoreDataProperties.swift in Sources */,
 				1BC02AA21E788C12006E4422 /* Recipe+CoreDataProperties.swift in Sources */,
 				1BC02A7B1E7868E8006E4422 /* MainVC.swift in Sources */,
+				1BC02AAA1E791803006E4422 /* RecipeDetailsVC.swift in Sources */,
 				1BC02A9C1E7875E5006E4422 /* ItemCell.swift in Sources */,
 				1BC02AA31E788C12006E4422 /* Image+CoreDataClass.swift in Sources */,
 				1BC02A791E7868E8006E4422 /* AppDelegate.swift in Sources */,

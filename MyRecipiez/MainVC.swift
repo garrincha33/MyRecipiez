@@ -9,7 +9,7 @@
 import UIKit
 import CoreData
 
-class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource, NSFetchedResultsControllerDelegate {
     
     
     @IBOutlet weak var tableView: UITableView!
@@ -56,21 +56,16 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         
     }
     
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        
-        return 187
-        
-    }
+
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! ItemCell
         
         configureCell(cell: cell, indexPath: indexPath as NSIndexPath)
-        
+
         return cell
-        
+
     }
     
     func attemptFetch() {
@@ -81,7 +76,7 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         
         let controller = NSFetchedResultsController(fetchRequest: fetchRequest, managedObjectContext: context, sectionNameKeyPath: nil, cacheName: nil  )
         
-        //controller.delegate = self
+        controller.delegate = self
         
         self.controller = controller
         
@@ -184,6 +179,7 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         let item5 = Recipe(context: context)
         item5.title = "Ham"
         item5.details = "these are quite easy to make"
+    
         
         ad.saveContext()
         
